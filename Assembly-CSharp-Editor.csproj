@@ -73,11 +73,6 @@
     <Compile Include="Assets\Editor\cortex scripts\CortexAccess\SessionController.cs" />
     <Compile Include="Assets\Editor\cortex scripts\CortexAccess\TrainingController.cs" />
     <Compile Include="Assets\Editor\cortex scripts\CortexAccess\Utils.cs" />
-    <Compile Include="Assets\Editor\cortex scripts\EEGLogger\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="Assets\Editor\cortex scripts\EEGLogger\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="Assets\Editor\cortex scripts\EEGLogger\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="Assets\Editor\cortex scripts\EEGLogger\Program.cs" />
-    <Compile Include="Assets\Editor\cortex scripts\EEGLogger\Properties\AssemblyInfo.cs" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Collections.Specialized.4.3.0\ThirdPartyNotices.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\bin\Debug\nunit.framework.xml" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.xml" />
@@ -86,7 +81,6 @@
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Net.Sockets.4.3.0\dotnet_library_license.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Threading.4.3.0\ThirdPartyNotices.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Threading.Timer.4.3.0\dotnet_library_license.txt" />
-    <None Include="Assets\Editor\cortex scripts\EEGLogger\obj\Debug\EEGLogger.csproj.FileListAbsolute.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Net.NameResolution.4.3.0\ThirdPartyNotices.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Collections.Specialized.4.3.0\dotnet_library_license.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Security.Cryptography.Encoding.4.3.0\dotnet_library_license.txt" />
@@ -100,11 +94,9 @@
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Security.Cryptography.Primitives.4.3.0\dotnet_library_license.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Net.NameResolution.4.3.0\dotnet_library_license.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Net.Security.4.3.0\dotnet_library_license.txt" />
-    <None Include="Assets\Editor\cortex scripts\EEGLogger\bin\Debug\nunit.framework.xml" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Threading.Timer.4.3.0\ThirdPartyNotices.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Security.Cryptography.X509Certificates.4.3.0\dotnet_library_license.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Security.Cryptography.Algorithms.4.3.0\dotnet_library_license.txt" />
-    <None Include="Assets\Editor\cortex scripts\EEGLogger\bin\Debug\Newtonsoft.Json.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Unity Projects/New Unity Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -544,19 +536,19 @@
       <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/WebSocket4Net.0.15.2/lib/net45/WebSocket4Net.dll</HintPath>
     </Reference>
     <Reference Include="CortexAccess">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/EEGLogger/bin/Debug/CortexAccess.dll</HintPath>
+      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/CortexAccess.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/EEGLogger/bin/Debug/Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/EEGLogger/bin/Debug/nunit.framework.dll</HintPath>
+      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="SuperSocket.ClientEngine">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/EEGLogger/bin/Debug/SuperSocket.ClientEngine.dll</HintPath>
+      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/SuperSocket.ClientEngine.dll</HintPath>
     </Reference>
     <Reference Include="WebSocket4Net">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/EEGLogger/bin/Debug/WebSocket4Net.dll</HintPath>
+      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/WebSocket4Net.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Emma/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

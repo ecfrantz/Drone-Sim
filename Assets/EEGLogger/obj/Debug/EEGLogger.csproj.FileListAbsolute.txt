@@ -1,0 +1,17 @@
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\EEGLogger.exe.config
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\EEGLogger.exe
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\EEGLogger.pdb
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\CortexAccess.dll
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\WebSocket4Net.dll
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\nunit.framework.dll
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\CortexAccess.pdb
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\CortexAccess.dll.config
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Emma\Documents\Cortex code\EEGLogger\bin\Debug\nunit.framework.xml
+C:\Users\Emma\Documents\Cortex code\EEGLogger\obj\Debug\EEGLogger.csprojAssemblyReference.cache
+C:\Users\Emma\Documents\Cortex code\EEGLogger\obj\Debug\EEGLogger.csproj.CoreCompileInputs.cache
+C:\Users\Emma\Documents\Cortex code\EEGLogger\obj\Debug\EEGLogger.csproj.CopyComplete
+C:\Users\Emma\Documents\Cortex code\EEGLogger\obj\Debug\EEGLogger.exe
+C:\Users\Emma\Documents\Cortex code\EEGLogger\obj\Debug\EEGLogger.pdb
