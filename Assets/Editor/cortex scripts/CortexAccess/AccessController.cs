@@ -18,8 +18,8 @@ namespace CortexAccess
             REDEBIT = 13,
             GET_CLOUD_TOKEN = 14
         }
-        const string ClientId = "your_clientID";
-        const string ClientSecret = "your_ClientSecret";
+        const string ClientId = "8zcF9vDpF2QCHGsUAkchcMxf45lJfvhsDLtxbsdB";
+        const string ClientSecret = "tUH4bTFVE65zWXrvisTkGXRwgNtjmhKQiA9h9wKa8EehsL9Xq8lwJbOx21Ha7Y1RnuwCCkQKzsc0sRht3HjIkY8gLOLtLJ2QzfIYw4z2b2pxjJMR6A5yCR9mH1qVwdej";
 
         // Member variable
         private static readonly AccessController _instance = new AccessController();
