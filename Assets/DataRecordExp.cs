@@ -16,9 +16,9 @@ public class DataRecordExp : MonoBehaviour {
     //StreamWriter writer = new StreamWriter(path, true);
     //const string OutFilePath = @"EEGLogger.csv";
     //private static FileStream OutFileStream;
-    const string Username = "your_username";
-    const string Password = "your_password";
-    const string LicenseId = "your_license";
+    const string Username = "eegdroneftw";
+    const string Password = "Eegdroneftw123";
+    const string LicenseId = "316d02a3-025a-41b3-8fbe-edb854926e3b";
     const int DebitNumber = 2; // default number of debit
 
     // Use this for initialization

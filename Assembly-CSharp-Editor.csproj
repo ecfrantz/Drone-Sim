@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5A0769DA-25DA-A68D-BA58-6ED404CB536B}</ProjectGuid>
+    <ProjectGuid>{251164B3-6601-3B37-31EE-C96EE713019B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_6;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_6;UNITY_2018_1;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -49,7 +49,7 @@
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
-    <UnityVersion>2018.2.6f1</UnityVersion>
+    <UnityVersion>2018.1.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -97,17 +97,17 @@
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Threading.Timer.4.3.0\ThirdPartyNotices.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Security.Cryptography.X509Certificates.4.3.0\dotnet_library_license.txt" />
     <None Include="Assets\Editor\cortex scripts\CortexAccess\packages\System.Security.Cryptography.Algorithms.4.3.0\dotnet_library_license.txt" />
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Unity Projects/New Unity Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity Projects/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Unity Projects/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity Projects/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -154,9 +154,6 @@
     <Reference Include="UnityEngine.FacebookModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.FileSystemHttpModule">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
@@ -178,9 +175,6 @@
     <Reference Include="UnityEngine.JSONSerializeModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
@@ -196,9 +190,6 @@
     <Reference Include="UnityEngine.Physics2DModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
@@ -213,9 +204,6 @@
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StyleSheetsModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
@@ -283,6 +271,9 @@
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
@@ -297,6 +288,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
@@ -316,11 +313,11 @@
     <Reference Include="UnityEditor.TreeEditor">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    <Reference Include="UnityEditor.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
@@ -350,220 +347,220 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="CortexAccess">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/CortexAccess.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/CortexAccess.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="SuperSocket.ClientEngine">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/SuperSocket.ClientEngine.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/SuperSocket.ClientEngine.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.Specialized">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Collections.Specialized.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Collections.Specialized.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Net.NameResolution.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Net.NameResolution.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Security">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Net.Security.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Net.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Sockets">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Net.Sockets.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Net.Sockets.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Security.Cryptography.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Primitives">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Security.Cryptography.Primitives.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Security.Cryptography.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="WebSocket4Net">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/WebSocket4Net.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/bin/Debug/WebSocket4Net.dll</HintPath>
     </Reference>
     <Reference Include="CortexAccess">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/obj/Debug/CortexAccess.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/obj/Debug/CortexAccess.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/Newtonsoft.Json.11.0.2/lib/net45/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/Newtonsoft.Json.11.0.2/lib/net45/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="SuperSocket.ClientEngine">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/SuperSocket.ClientEngine.Core.0.10.0/lib/net45/SuperSocket.ClientEngine.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/SuperSocket.ClientEngine.Core.0.10.0/lib/net45/SuperSocket.ClientEngine.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.Specialized">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Collections.Specialized.4.3.0/lib/net46/System.Collections.Specialized.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Collections.Specialized.4.3.0/lib/net46/System.Collections.Specialized.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.Specialized">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Collections.Specialized.4.3.0/ref/net46/System.Collections.Specialized.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Collections.Specialized.4.3.0/ref/net46/System.Collections.Specialized.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/lib/net46/System.Net.NameResolution.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/lib/net46/System.Net.NameResolution.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/ref/net46/System.Net.NameResolution.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/ref/net46/System.Net.NameResolution.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/runtimes/unix/lib/netstandard1.3/System.Net.NameResolution.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/runtimes/unix/lib/netstandard1.3/System.Net.NameResolution.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/runtimes/win/lib/net46/System.Net.NameResolution.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/runtimes/win/lib/net46/System.Net.NameResolution.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/runtimes/win/lib/netcore50/System.Net.NameResolution.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/runtimes/win/lib/netcore50/System.Net.NameResolution.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/runtimes/win/lib/netstandard1.3/System.Net.NameResolution.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.NameResolution.4.3.0/runtimes/win/lib/netstandard1.3/System.Net.NameResolution.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Security">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/lib/net46/System.Net.Security.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/lib/net46/System.Net.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Security">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/ref/net46/System.Net.Security.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/ref/net46/System.Net.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Security">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/runtimes/unix/lib/netstandard1.6/System.Net.Security.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/runtimes/unix/lib/netstandard1.6/System.Net.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Security">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/runtimes/win/lib/net46/System.Net.Security.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/runtimes/win/lib/net46/System.Net.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Security">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/runtimes/win/lib/netstandard1.3/System.Net.Security.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Security.4.3.0/runtimes/win/lib/netstandard1.3/System.Net.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Sockets">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Sockets.4.3.0/lib/net46/System.Net.Sockets.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Sockets.4.3.0/lib/net46/System.Net.Sockets.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Sockets">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Sockets.4.3.0/ref/net46/System.Net.Sockets.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Net.Sockets.4.3.0/ref/net46/System.Net.Sockets.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/lib/net46/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/lib/net46/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/lib/net461/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/lib/net461/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/lib/net463/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/lib/net463/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/ref/net46/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/ref/net46/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/ref/net461/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/ref/net461/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/ref/net463/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/ref/net463/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/osx/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/osx/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/net46/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/net46/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/net461/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/net461/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/net463/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/net463/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/netcore50/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/netcore50/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Algorithms.4.3.0/runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/lib/net46/System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/lib/net46/System.Security.Cryptography.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/ref/net46/System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/ref/net46/System.Security.Cryptography.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Encoding.4.3.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Primitives">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Primitives.4.3.0/lib/net46/System.Security.Cryptography.Primitives.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Primitives.4.3.0/lib/net46/System.Security.Cryptography.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Primitives">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Primitives.4.3.0/ref/net46/System.Security.Cryptography.Primitives.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.Primitives.4.3.0/ref/net46/System.Security.Cryptography.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/lib/net46/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/lib/net46/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/lib/net461/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/lib/net461/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/ref/net46/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/ref/net46/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/ref/net461/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/ref/net461/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/win/lib/net46/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/win/lib/net46/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/win/lib/netcore50/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/win/lib/netcore50/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/win/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Security.Cryptography.X509Certificates.4.3.0/runtimes/win/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/System.Threading.4.3.0/runtimes/aot/lib/netcore50/System.Threading.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/System.Threading.4.3.0/runtimes/aot/lib/netcore50/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="WebSocket4Net">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/Editor/cortex scripts/CortexAccess/packages/WebSocket4Net.0.15.2/lib/net45/WebSocket4Net.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/Editor/cortex scripts/CortexAccess/packages/WebSocket4Net.0.15.2/lib/net45/WebSocket4Net.dll</HintPath>
     </Reference>
     <Reference Include="CortexAccess">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/CortexAccess.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/EEGLogger/bin/Debug/CortexAccess.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/EEGLogger/bin/Debug/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/EEGLogger/bin/Debug/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="SuperSocket.ClientEngine">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/SuperSocket.ClientEngine.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/EEGLogger/bin/Debug/SuperSocket.ClientEngine.dll</HintPath>
     </Reference>
     <Reference Include="WebSocket4Net">
-      <HintPath>D:/Unity Projects/New Unity Project/Assets/EEGLogger/bin/Debug/WebSocket4Net.dll</HintPath>
+      <HintPath>C:/Users/serge/SeniorYear/BCI/Drone-Sim/Assets/EEGLogger/bin/Debug/WebSocket4Net.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Emma/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/serge/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/Emma/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/serge/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/Users/Emma/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
+      <HintPath>C:/Users/serge/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Emma/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/serge/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/Emma/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/serge/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
@@ -916,7 +913,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</Project>
+      <Project>{33BF331F-90B4-BF0D-F4E3-48895405A713}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
