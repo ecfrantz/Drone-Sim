@@ -69,6 +69,7 @@
     <Compile Include="Assets\EEGLogger\Program.cs" />
     <Compile Include="Assets\EEGLogger\Properties\AssemblyInfo.cs" />
     <Compile Include="Assets\PauseGame.cs" />
+    <None Include="Assets\DataOut.txt" />
     <None Include="Assets\EEGLogger\obj\Debug\EEGLogger.csproj.FileListAbsolute.txt" />
     <None Include="Assets\EEGLogger\bin\Debug\nunit.framework.xml" />
     <None Include="Assets\EEGLogger\bin\Debug\Newtonsoft.Json.xml" />

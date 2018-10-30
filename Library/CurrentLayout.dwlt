@@ -87,10 +87,10 @@ MonoBehaviour:
     y: 30
     width: 1522
     height: 717
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 711, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
-  controlID: 60
+  controlID: 114
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,10 +158,10 @@ MonoBehaviour:
     y: 0
     width: 400
     height: 717
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 61
+  controlID: 10
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,8 +180,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 717
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -205,8 +205,8 @@ MonoBehaviour:
     y: 0
     width: 400
     height: 316
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -333,20 +333,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Editor/cortex scripts/CortexAccess/packages
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Editor/cortex scripts/CortexAccess/packages
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\New Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b80a0000
-    m_LastClickedID: 2744
-    m_ExpandedIDs: 00000000b80a0000c00a0000000b0000080b0000500b0000a60b0000e40b00001a0c0000300c0000380c0000ae0c0000b20c0000ba0c0000340d0000560d0000700d0000720d00009a0d0000aa0d0000bc0d0000c60d00002e0e0000be0e0000c20e0000d80e0000e80e0000300f000046310000483100004a3100004c3100004e31000050310000523100005431000056310000583100005a3100005c3100005e31000060310000623100006431000066310000de31000000ca9a3b
+    m_SelectedIDs: 180f0000
+    m_LastClickedID: 3864
+    m_ExpandedIDs: 00000000a80a0000b20a0000f20a0000fa0a00000e0b0000460b00009e0b0000dc0b0000120c0000280c0000300c0000a80c0000ac0c0000b40c0000340d0000560d0000700d0000720d00009a0d0000aa0d0000bc0d0000c60d00002e0e0000be0e0000c20e0000d80e0000e80e0000300f00005c3100005e31000060310000623100006431000066310000683100006a3100006c3100006e31000070310000723100007431000076310000783100007a3100007c31000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b80a0000000b0000080b0000500b0000a60b0000e40b00001a0c0000300c0000ba0c0000340d0000560d0000700d0000720d00009a0d0000bc0d0000c60d00002e0e0000be0e0000c20e0000e80e0000180f0000300f000046310000483100004a3100004c3100004e31000050310000523100005431000056310000583100005a3100005c3100005e31000060310000623100006431000066310000
+    m_ExpandedIDs: 00000000a80a0000b20a0000f20a0000fa0a00000e0b0000460b00009e0b0000dc0b0000120c0000280c0000300c0000a80c0000ac0c0000b40c0000340d0000560d0000700d0000720d00009a0d0000aa0d0000bc0d0000c60d00002e0e0000be0e0000c20e0000d80e0000e80e0000300f00005c3100005e31000060310000623100006431000066310000683100006a3100006c3100006e31000070310000723100007431000076310000783100007a3100007c310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -426,7 +426,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 199}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 162
 --- !u!114 &14
@@ -614,9 +614,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c100000
-    m_LastClickedID: 4156
-    m_ExpandedIDs: c022ffffd6fbffff000000000a1000003c100000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
