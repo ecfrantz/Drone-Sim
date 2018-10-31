@@ -61,16 +61,16 @@ public class DataRecordExp : MonoBehaviour {
             p.Authorize(LicenseId, DebitNumber);
             Thread.Sleep(5000); //wait for authorizing
         }
-        //if (!p.IsHeadsetConnected())
-        //{
-        //    p.QueryHeadset();
-        //    Thread.Sleep(10000); //wait for querying headset and create session
-        //}
-        //if (!p.IsCreateSession)
-        //{
-        //    p.CreateSession();
-        //    Thread.Sleep(5000);
-        //}
+        if (!p.IsHeadsetConnected())
+        {
+            p.QueryHeadset();
+            Thread.Sleep(10000); //wait for querying headset and create session
+        }
+        if (!p.IsCreateSession)
+        {
+            p.CreateSession();
+            Thread.Sleep(5000);
+        }
         //if (p.IsCreateSession)
         //{
         //    // Subcribe EEG data
