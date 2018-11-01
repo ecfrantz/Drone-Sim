@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
+using UnityEditor;
+using UnityEngine.UI;
 
 namespace CortexAccess
 {
@@ -25,6 +28,8 @@ namespace CortexAccess
         public event EventHandler<ArrayList> OnEEGDataReceived;
         public event EventHandler<ArrayList> OnDevDataReceived;
         public event EventHandler<ArrayList> OnPerfDataReceived;
+
+        public Text output;
 
         // Constructor
         public Process()
@@ -419,7 +424,8 @@ namespace CortexAccess
             }
             else
             {
-                Console.WriteLine("can not detect stream type" + streamType.ToString());
+                //Console.WriteLine("can not detect stream type" + streamType.ToString());
+                output.text = "can not detect stream type" + streamType.ToString();
             }
         }
 
@@ -432,7 +438,8 @@ namespace CortexAccess
             switch (streamType)
             {
                 case (int)StreamID.MOTION_STREAM:
-                    Console.WriteLine("Motion data received");
+                    //Console.WriteLine("Motion data received");
+                    output.text = "Motion data received";
                     ArrayList motionData = new ArrayList();
                     JArray jMotData = (JArray)evt.Data["mot"];
                     foreach(var item in jMotData)
@@ -445,7 +452,8 @@ namespace CortexAccess
                     }
                     break;
                 case (int)StreamID.EEG_STREAM:
-                    Console.WriteLine("EEG data received");
+                    //Console.WriteLine("EEG data received");
+                    output.text = "EEG data received";
                     ArrayList eegData = new ArrayList();
 
                     JArray jEEGData = (JArray)evt.Data["eeg"];
@@ -459,7 +467,8 @@ namespace CortexAccess
                     }
                     break;
                 case (int)StreamID.DEVICE_STREAM:
-                    Console.WriteLine("Device data received");
+                    //Console.WriteLine("Device data received");
+                    output.text = "Device data received";
                     ArrayList devData = new ArrayList();
 
                     JArray jDevData = (JArray)evt.Data["dev"];
@@ -473,7 +482,8 @@ namespace CortexAccess
                     }
                     break;
                 case (int)StreamID.PERF_METRICS_STREAM:
-                    Console.WriteLine("Performance metrics data received");
+                    //Console.WriteLine("Performance metrics data received");
+                    output.text = "Performance metrics data received";
                     ArrayList perfData = new ArrayList();
 
                     JArray jPerfData = (JArray)evt.Data["met"];
@@ -488,7 +498,8 @@ namespace CortexAccess
                     break;
                 case (int)StreamID.SYS_STREAM:
                     JArray jSysEvent = (JArray)evt.Data["sys"];
-                    Console.WriteLine("Sys Event received: " + jSysEvent[0] + " : " + jSysEvent[1]);
+                    //Console.WriteLine("Sys Event received: " + jSysEvent[0] + " : " + jSysEvent[1]);
+                    output.text = "Sys Event received: " + jSysEvent[0] + " : " + jSysEvent[1];
                     break;
                 default:
                     break;
@@ -499,7 +510,8 @@ namespace CortexAccess
         {
             if (isConnected)
             {
-                Console.WriteLine("Websocket Client Connected");
+                //Console.WriteLine("Websocket Client Connected");
+                output.text = "Websocket Client Connected";
                 // Query user login
                 if (!AccessCtr.IsLogin)
                     AccessCtr.QueryUserLogin();
@@ -509,7 +521,8 @@ namespace CortexAccess
             }
             else
             {
-                Console.WriteLine("Websocket Client disconnect");
+                //Console.WriteLine("Websocket Client disconnect");
+                output.text = "Websocket Client disconnect";
                 if (SessionCtr.IsCreateSession)
                     CloseSession();
                 // Clear session
@@ -520,31 +533,37 @@ namespace CortexAccess
         //Recieved error message
         public void MessageErrorRecieved(object sender, MessageErrorEventArgs e)
         {
-            Console.WriteLine("Message Error recieved from " + sender.ToString());
-            Console.WriteLine("Recieved: " + e.Code + " : " + e.MessageError);
+            //Console.WriteLine("Message Error recieved from " + sender.ToString());
+            //Console.WriteLine("Recieved: " + e.Code + " : " + e.MessageError);
+            output.text = "Message Error recieved from " + sender.ToString();
+            output.text = "Recieved: " + e.Code + " : " + e.MessageError;
         }
 
         private void QuerryHeadsetReceived(object sender, List<Headset> headsets)
         {
             if(headsets.Count == 0)
             {
-                Console.WriteLine("No headset connected.");
+                //Console.WriteLine("No headset connected.");
+                output.text = "No headset connected.";
             }
         }
 
         private void AuthorizeOK(object sender, string token)
         {
-            Console.WriteLine("Authorize successfully!!!. Access Token " + token);
+            //Console.WriteLine("Authorize successfully!!!. Access Token " + token);
+            output.text = "Authorize successfully!!!. Access Token " + token;
 
         }
         private void LoginOK(object sender, bool isLogin)
         {
-            Console.WriteLine("Login successfully !!!");
+            //Console.WriteLine("Login successfully !!!");
+            output.text = "Login successfully !!!";
         }
 
         private void DisconnectHeadsetReceived(object sender, string headsetID)
         {
-            Console.WriteLine("Disconnect headset " + headsetID);
+            //Console.WriteLine("Disconnect headset " + headsetID);
+            output.text = "Disconnect headset " + headsetID;
             if (SessionCtr.IsCreateSession)
             {
                 CloseSession();
